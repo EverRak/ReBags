@@ -1,2 +1,2 @@
 # ReBags
-Recyclable bags :thumbsup
+Recyclable bags 👍
