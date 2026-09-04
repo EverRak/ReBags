@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './prince.css';
+import './Prince.css';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
@@ -70,16 +70,17 @@ export default function App() {
               </div>
 
               <div className="hero-image-wrapper">
-                <div className="glass-backdrop"></div>
-                <div className="image-card">
-                  <svg className="ecobag-svg" viewBox="0 0 200 240" fill="none">
-                    <path d="M65 80 C65 20, 135 20, 135 80" stroke="#FAF7EE" strokeWidth="14" strokeLinecap="round" fill="none" />
-                    <path d="M65 80 C65 20, 135 20, 135 80" stroke="#E2DBCA" strokeWidth="8" strokeLinecap="round" fill="none" />
-                    <polygon points="40,80 160,80 148,210 52,210" fill="#FFFDF7" />
-                    <polygon points="160,80 175,90 162,218 148,210" fill="#E2DBCA" />
-                    <polygon points="40,80 160,80 175,90 55,90" fill="#F4EFE2" />
-                    <path d="M52 210 L148 210 L160 80" stroke="#D3C9B5" strokeWidth="2" fill="none" />
-                  </svg>
+                <div className="glass-backdrop">
+                  <div className="image-card">
+                    <svg className="ecobag-svg" viewBox="0 0 200 240" fill="none">
+                      <path d="M65 80 C65 20, 135 20, 135 80" stroke="#FAF7EE" strokeWidth="14" strokeLinecap="round" fill="none" />
+                      <path d="M65 80 C65 20, 135 20, 135 80" stroke="#E2DBCA" strokeWidth="8" strokeLinecap="round" fill="none" />
+                      <polygon points="40,80 160,80 148,210 52,210" fill="#FFFDF7" />
+                      <polygon points="160,80 175,90 162,218 148,210" fill="#E2DBCA" />
+                      <polygon points="40,80 160,80 175,90 55,90" fill="#F4EFE2" />
+                      <path d="M52 210 L148 210 L160 80" stroke="#D3C9B5" strokeWidth="2" fill="none" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
